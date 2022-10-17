@@ -8,9 +8,12 @@ int main(void)
 {
 	int num;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
+	num = 0
+		while (num < 10)
+		{
+			putchar(num);
+			num++;
+		}
 	putchar('\n');
 
 	return (0);

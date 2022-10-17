@@ -8,3 +8,4 @@ program that prints all single digit numbers from base of 10 starting from 0 fol
 program that prints the lowercase alphabets in reverse followed by a new line
 program that prints all the numbers of base 16 in lowercase followed by new line
 program that prints all posible combinations of single digit numbers
+program that prints all possible different combinations of two digits
