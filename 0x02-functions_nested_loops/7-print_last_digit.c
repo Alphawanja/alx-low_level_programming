@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- * _last_digit - prints the last digit
- * @r: digit to be printed
- * Return: value of the last digit
+ * main - check the code
+ *
+ * Return: Always 0
  */
-int _last_digit(int r)
+int main(void)
 {
-	if (r <= 0)
-		return (-r);
-	else
-		return (r);
+	int r;
+
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
+	_putchar('0' + r);
+	_putchar('\n');
+	return (0);
 }
