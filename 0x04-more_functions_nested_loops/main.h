@@ -12,5 +12,5 @@ void print_diagnal(int n);
 void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
-
+void print_number(int n)
 #endif

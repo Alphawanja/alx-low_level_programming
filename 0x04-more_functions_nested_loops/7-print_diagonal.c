@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line
+ * print_diagonal - draws a diagonal line using '\'
  * @n: numbers of '\' to be printed
  */
 void print_diagonal(int n)
 {
-	int x, y;
+	int diag;
 
-	if (n <= 0)
-		_putchar('\n');
-
-	for (x = 0; x < n; x++)
+	if (n > 0)
 	{
-		for (y = 0; y < x; y++)
-			_putchar(' ');
-
-		_putchar('\\');
-		_putchar('\n');
+		for (diag = 0; diag < n; diag++)
+			_putchar('\');
 	}
+	_putchar('\n');
 }
