@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
- * strin_nconcat - concatenates two strings
+ * string_nconcat - concatenates two strings
  * @s1: string1
  * @s2: string2
+ * @n: n bytes of string 2
  *
  * Return: pointer allocated memory of s1 + nbytes of s2
  */
