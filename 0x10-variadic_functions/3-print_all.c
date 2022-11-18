@@ -33,7 +33,7 @@ void print_all(const char * const format, ...)
 				printf("%d", va_arg(valist, int)), k = 1;
 				break;
 			case 'f':
-				printf("%f", va_arg(valist , double)), k = 1;
+				printf("%f", va_arg(valist, double)), k = 1;
 				break;
 			case 's':
 				str = va_arg(valis, char *), k = 1;
@@ -47,5 +47,6 @@ void print_all(const char * const format, ...)
 		}
 		i++;
 	}
-	printf("\n"), va_end (valist);
+	printf("\n");
+	va_end(valist);
 }
