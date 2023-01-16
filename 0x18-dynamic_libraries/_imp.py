@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import ctypes
 
-spam = ctypes.CDLL('./100-operations.so)
+spam = ctypes.CDLL('./100-operations.so')
